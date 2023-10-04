@@ -298,7 +298,7 @@ TRX_ID=$(curl -s -X POST http://${ENDPOINT}:${PORT}/spend -H 'content-type: appl
         "spendId": "'"${SPENDID}"'",
         "spendDescription": "Fees for hiring transport for animal delivery",
         "spendDate": "2018-11-19T12:20:59.582Z",
-        "spendAmount": 125
+        "spendAmount": 1
 }')
 echo "Transaction ID is $TRX_ID"
 echo
@@ -308,6 +308,6 @@ TRX_ID=$(curl -s -X POST http://${ENDPOINT}:${PORT}/spend -H 'content-type: appl
         "spendId": "'"${SPENDID}"'",
         "spendDescription": "Purchase test tubes",
         "spendDate": "2018-09-10T22:41:59.582Z",
-        "spendAmount": 99
+        "spendAmount": 2
 }')
 echo "Transaction ID is $TRX_ID"
