@@ -26,10 +26,10 @@ sed -i "s|/home/ec2-user/managedblockchain-tls-chain.pem|./certs/managedblockcha
 sudo yum install gcc-c++ -y
 
 echo Install Node.js. We will use v10.x.
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.39.1/install.sh | bash
 . ~/.nvm/nvm.sh
-nvm install lts/erbium
-nvm use lts/erbium
+nvm install lts/hydrogen
+nvm use lts/hydrogen
 cd src
 npm install
 cd ..
